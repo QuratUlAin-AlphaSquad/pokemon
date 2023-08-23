@@ -2,6 +2,7 @@
     import { pokemon } from "../stores/pokestore";
     import "../app.css";
     import PokemanCard from "../components/pokemanCard.svelte";
+    import OnMountComponent from "../components/OnMountComponent.svelte";
     // import module from '../components';
 
     // console.log($pokemon);
@@ -23,6 +24,8 @@
     <title>SvelteKit Pokedex</title>
 </svelte:head>
 
+
+
 <h1 class="text-2xl text-center my-8 uppercase bg-slate-500">
     SvelteKit Pokedex
 </h1>
@@ -38,6 +41,8 @@
 
 
 </div>
+
+<OnMountComponent />
 
 
 
