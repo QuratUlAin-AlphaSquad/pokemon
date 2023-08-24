@@ -2,7 +2,6 @@
     import { pokemon } from "../stores/pokestore";
     import "../app.css";
     import PokemanCard from "../components/pokemanCard.svelte";
-    import OnMountComponent from "../components/OnMountComponent.svelte";
     // import module from '../components';
 
     // console.log($pokemon);
@@ -42,7 +41,7 @@
 
 </div>
 
-<OnMountComponent />
+
 
 
 

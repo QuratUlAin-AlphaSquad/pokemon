@@ -16,7 +16,4 @@ const fetchPokemon =async () => {
 };
 fetchPokemon();
 
-
-
-
  

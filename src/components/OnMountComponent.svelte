@@ -1,11 +1,4 @@
 
-<!-- 
-
-    Link Used for onMount Experiment : https://dev.to/akuks/how-onmount-works-in-svelte-1f0i
- -->
-
-
-
 <script>
     import { onMount } from 'svelte'
 
